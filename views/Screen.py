@@ -1,6 +1,7 @@
 # Importaciones
-from Program import pygame
-import colors
+#from src.Program import pygame
+import pygame
+import assets.styles.colors as colors
 
 # clase padre de pantallas
 class Screen:

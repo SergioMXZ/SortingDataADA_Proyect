@@ -1,4 +1,4 @@
-from Program import pygame
+from src.Program import pygame
 
 numPress = {
     pygame.K_KP1 : 1, pygame.K_1 : 1,

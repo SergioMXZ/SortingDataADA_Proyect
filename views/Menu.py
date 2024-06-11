@@ -1,5 +1,5 @@
 # Importaciones
-from Screen import Screen, pygame
+from views.Screen import Screen, pygame
 
 class Menu(Screen):
     def __init__(self, screen, program):
@@ -58,9 +58,7 @@ class Menu(Screen):
         if event.type == pygame.QUIT:
             self.program.quit_pygame()
         elif event.type == pygame.KEYDOWN:
-            if event.key == pygame.K_SPACE:
-                "#bubble"; self.program.set_screen(
-                    self.program.bubble_sort)
+            pass
         elif event.type == pygame.MOUSEBUTTONUP:
             mouse_pos = pygame.mouse.get_pos()
             if self.buttons[0][1].collidepoint(mouse_pos):

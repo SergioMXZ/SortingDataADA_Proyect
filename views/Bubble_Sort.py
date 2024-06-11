@@ -1,5 +1,5 @@
 # Importaciones
-from Screen import Screen, pygame
+from views.Screen import Screen, pygame
 import time
 
 class Bubble_Sort(Screen):
